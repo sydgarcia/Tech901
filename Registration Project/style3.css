@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(to right bottom, #ffffff, #f4e7fa, #f6cceb, #fcafce, #ff93a5, #e97d88, #d2686c, #bb5451, #8a3f43, #5b2b32, #301a1e, #000000);
+margin: 20em;
+}
+
+figure {
+    position: relative;
+    left: 10em;
+}
+.diamond img {
+    position: absolute;
+    height: 25m;
+    width: 25em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .button {
+     display: flex;
+     width: 100%;
+     border: none;
+     background-color:white;
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     justify-content: center;
+     align-items: center;
+     border-radius: 2em;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
