@@ -1,0 +1,207 @@
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12.2em 12.2em 12.2em 12.2em 12.2em;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100%;
+
+}
+
+/* Box1 is going to be my navagation container */
+
+.box1 {
+    color: black;
+    border: solid blue;
+    grid-area: 1 / 1 / 9 / 2;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box1 header {
+    display: grid;
+    justify-content: center;
+    font-family: arial;
+}
+
+.box1 section {
+    display: grid;
+    justify-content: center;
+    font-family: arial;
+    align-items: center;
+}
+
+.box1 section li {
+    border: 2px solid blue;
+    padding:2rem;
+    list-style-type: none;
+}
+
+a :hover {
+    background-color: aqua;
+}
+
+.box1 .section2 {
+    padding-top: 15em;
+}
+
+.profile-picture {
+    display: grid;
+    justify-content: center;
+
+}
+.profile-picture img {
+    height: 100px;
+    border-radius: 42%;
+} 
+
+.section2 p {
+    display: grid;
+    justify-content: center;
+}
+/* Box2 is going to be my introduction container */
+
+.box2 {
+    color: black;
+    border: solid blue;
+    grid-area: 1 / 2 / 2 / 6;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box2 header {
+    display: grid;
+    justify-content: start;
+    font-display: arial;
+}
+
+/* Box3 is going to be my current project container */
+
+.box3 {
+    color: black;
+    border: solid blue;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box3 header {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-display: arial;
+}
+
+.box3 object {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/* Box4 is going to be my In-progress container */
+
+.box4 {
+    color: black;
+    border: solid blue;
+    grid-area: 2 / 3 / 2 / 3;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box4 header {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-display: arial;
+}
+
+.box4 object {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/* Box5 is going to be my Completed container */
+
+.box5 {
+    color: black;
+    border: solid blue;
+    grid-area: 2 / 4 / 2 / 4;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box5 header {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-display: arial;
+}
+
+.box5 object {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/* Box6 is going to be my Not Started container */
+
+.box6 {
+    color: black;
+    border: solid blue;
+    grid-area: 2 / 5 / 2 / 5;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box6 header {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-display: arial;
+}
+
+.box6 object {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/* Box7 is going to be my Calendar container */
+
+.box7 {
+    color: black;
+    border: solid blue;
+    grid-area: 3 / 2 / 9 / 4;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box7 header {
+    display: grid;
+    justify-content: start;
+    font-display: arial;
+}
+
+/* Box8 is going to be my Current Projects container */
+
+.box8 {
+    color: black;
+    border: solid blue;
+    grid-area: 3 / 4 / 9 / 6;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.box8 header {
+    display: grid;
+    justify-content: start;
+    font-display: arial;
+}
+
+.box8 section ul li {
+    border:solid 2px blue;
+    padding:2em;
+    list-style-type: none;
+}
