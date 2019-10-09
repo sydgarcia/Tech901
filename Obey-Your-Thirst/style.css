@@ -1,0 +1,138 @@
+/* CSS Reset */
+​
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+​
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+​
+body, h1, h2, h3, h4, h5, h6, p, ol {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    max-width: 100%; /*bonus*/
+    overflow-x: hidden; /*bonus*/
+}
+​
+ol, ul {
+    list-style: none;
+}
+​
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    margin:0;
+}
+​
+/* End CSS Reset */
+
+body {
+    background-color: lightgreen;
+    /* display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0%;
+    padding: 0%; */
+}
+
+header {
+background-color: green;
+font-weight: bold;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: fixed;
+width: 100%;
+}
+
+li {
+    display: inline;
+    color: white;
+    padding: 0.2em;
+}
+
+#social-media {
+    display: inline;
+    /* position: absolute;
+    right: 10%;
+    top: 40%; */
+}
+
+.first-picture {
+    background-color: black;
+}
+
+.first-picture img {
+    width: 100%;
+}
+
+.the-mission {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: Georgia;
+
+}
+
+h2 {
+    font-size: 3em;
+    font-family: Georgia;
+}
+
+.first-sticker {
+    background-color: black;
+}
+.first-sticker img{
+    width: 100%;
+}
+
+.videos {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-sticker img {
+    width: 100%;
+}
+
+.sprite-bottle {
+    display: flex;
+    justify-content: center;
+    background-color: seagreen;
+}
+
+.sprite-bottle, .button {
+    justify-content: center;
+    align-items: center;
+}
+
+.radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+.playlist {
+   float: right;
+}
+
+footer {
+    background-color: seagreen;
+}
