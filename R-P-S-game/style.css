@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+.clear{
+  clear:both;
+}
+body{
+  margin:0;
+}
+.game-wrapper{
+  width:100%;
+  padding:5% 0;
+ background-image: linear-gradient(to right bottom, #bbc4d5, #a8b7ea, #a4a6fa, #b18fff, #cb70ff, #be74ff, #b278ff, #a57bff, #6c9aff, #28b2ff, #00c4ff, #46d3f9);
+  text-align:center;
+  height: 100%;
+}
+.game-container{
+  font-family: 'Open Sans', sans-serif;
+  display:inline-block;
+  margin:auto;
+  color:#fff;
+  border:2px solid;
+  padding:30px;
+}
+input{
+  background-color:transparent;
+  border:none;
+  border-bottom: 1px solid white;
+  text-align:center;
+}
+input, label{
+  vertical-align:bottom;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size:16px;
+  letter-spacing:1px;
+}
+label{
+  font-weight:;
+}
+button{
+  color:#fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size:22px;
+  padding:10px 30px;
+  font-weight:600;
+  border-radius: 5px;
+  transition: all 0.25s ease;
+}
+button:hover{
+  cursor:pointer;
+  background-color: #fff;
+  color: #E0327F;
+}
+.play-container, .score-container{
+  display:inline-block;
+  min-width:200px;
+  margin-top:10px;
+  width:45%;
+  vertical-align:top;
+}
+.divider{
+  display:inline-block;
+  width:1px;
+  height: 200px;
+  vertical-align:top;
+  margin: 10px 10px 0 10px;
+  background-color:#fff;
+}
+.play-container h4, .score-container h4{
+  text-align:center;
+  margin-top:0;
+  font-weight:600;
+  text-decoration:underline;
+}
+ul#play-by-play, ul#scores{
+  text-align:left;
+  margin-right:25px;
+}

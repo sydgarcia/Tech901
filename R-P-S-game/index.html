@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/animation.js"></script>
+</head>
+<body>
+<div class="game-wrapper">
+  <div class="game-container">
+    <h1>Rock, Paper, Scissors</h1>
+    <label for="playerOne" id="playerOneLbl">Player One: Enter Name</label>
+    <input type="text" name="playerOne" id="playerOne" />
+    <div class="clear">&nbsp;</div>
+    <label for="playerTwo" id="playerTwoLbl">Player Two: Enter Name</label>
+    <input type="text" name="playerTwo" id="playerTwo" />
+    <div class="clear">&nbsp;</div>
+    <button id="startGameBtn">Play Now!</button>
+    <div class="clear">&nbsp;</div>
+    <div class="play-container">
+      <h4>The Play-by-Play:</h4>
+      <ul id="play-by-play">
+      </ul>
+    </div>
+    <div class="divider">&nbsp;</div>
+    <div class="score-container">
+      <h4>Scores:</h4>
+      <ul id="scores">
+        <li id="playerOneScore"></li>
+        <li id="playerTwoScore"></li>
+        <li id="numberOfTies"></li>
+      </ul>  
+    </div>
+    <div class="clear">&nbsp;</div>
+  </div>    
+</div>
+</body>
+</html>
